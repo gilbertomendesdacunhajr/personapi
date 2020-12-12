@@ -12,11 +12,11 @@ public enum PhoneType {
 
     private final String description;
 
-    PhoneType(String description) {
+    /*PhoneType(String description) {
         this.description = description;
     }
 
     public final String getDescription() {
         return description;
-    }
+    }*/
 }
