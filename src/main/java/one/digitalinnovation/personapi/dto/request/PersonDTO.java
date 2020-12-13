@@ -8,6 +8,7 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.hibernate.validator.constraints.br.CPF;
 
 @Data
 @Builder
@@ -25,7 +26,7 @@ public class PersonDTO {
     private String lastName;
 
     @NotEmpty
-    //@CPF
+    @CPF
     private String cpf;
 
     private String birthDate;
